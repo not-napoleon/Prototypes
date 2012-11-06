@@ -1,0 +1,12 @@
+<html>
+  <head>
+    <title>Admin Detail Page</title>
+  </head>
+
+  <body>
+    <h1>Admin details for {{some_id}}</h1>
+    <p>You can do all sorts of stuff from here!</p>
+    <p><a href='{{url_for('main_site.main_detail', some_id=37)}}'>View in main site</a></p>
+    <p><a href='{{url_for('admin_site.admin_index')}}'>Back to admin index</a></p>
+  </body>
+</html>
